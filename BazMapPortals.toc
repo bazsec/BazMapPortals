@@ -1,0 +1,16 @@
+## Interface: 120001
+## Title: BazMapPortals
+## Notes: Adds clickable portal and teleport icons for mages directly to the world map
+## Author: Baz4k
+## Version: 003
+## X-License: GPL v2
+## Category: Baz Suite
+## X-Category: Map & Minimap
+## Dependencies: BazCore
+## IconTexture: Interface\AddOns\BazMapPortals\icon.png
+## SavedVariables: BazMapPortalsDB
+
+Data.lua
+Pins.lua
+Provider.lua
+Core.lua

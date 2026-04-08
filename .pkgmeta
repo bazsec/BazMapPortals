@@ -1,0 +1,6 @@
+package-as: BazMapPortals
+ignore:
+  - .git
+  - .gitignore
+  - .pkgmeta
+  - LICENSE
