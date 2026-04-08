@@ -6,6 +6,7 @@
 ## X-License: GPL v2
 ## Category: Baz Suite
 ## X-Category: Map & Minimap
+## X-Curse-Project-ID: 1402800
 ## Dependencies: BazCore
 ## IconTexture: Interface\AddOns\BazMapPortals\icon.png
 ## SavedVariables: BazMapPortalsDB
