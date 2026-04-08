@@ -294,8 +294,3 @@ BazCore:AddToSettings(ADDON_NAME, "BazMapPortals")
 
 BazCore:RegisterOptionsTable(ADDON_NAME .. "-Settings", GetSettingsPage)
 BazCore:AddToSettings(ADDON_NAME .. "-Settings", "Settings", ADDON_NAME)
-
-BazCore:RegisterOptionsTable(ADDON_NAME .. "-Profiles", function()
-    return BazCore:GetProfileOptionsTable(ADDON_NAME)
-end)
-BazCore:AddToSettings(ADDON_NAME .. "-Profiles", "Profiles", ADDON_NAME)
