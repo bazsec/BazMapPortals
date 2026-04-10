@@ -52,7 +52,8 @@ MP.CITIES = {
   { city="Stonard", x=0.90, y=0.68, mapID=947, teleport=49358, portal=49361 }, -- Azeroth
   { city="Warspear", x=0.72, y=0.39, mapID=572, teleport=176242, portal=176274 }, -- Draenor
   { city="Dazar'alor", x=0.58, y=0.62, mapID=875, teleport=281404, portal=281402 }, -- Zandalar
-  { city="Silvermoon", x=0.92, y=0.31, mapID=947, teleport=32272, portal=32267 }, -- Azeroth
+  { city="Silvermoon", x=0.53, y=0.65, mapID=2393, teleport=1259190, portal=1259194 }, -- Silvermoon City (Midnight)
+  { city="Silvermoon (BC)", x=0.92, y=0.31, mapID=947, teleport=32272, portal=32267, faction="Horde" }, -- Old Silvermoon (Burning Crusade)
 }
 
 -- Map-Specific Overrides
@@ -71,9 +72,17 @@ MP.MAP_OVERRIDES = {
         [1165] = { x=0.51, y=0.46 }, -- The Great Seal: Correct location from user
     },  
     ["Silvermoon"] = {
-        [13] = { x=0.56, y=0.13 }, -- Eastern Kingdoms: Correct location from user
-        [94] = { x=0.53, y=0.31 }, -- Eversong Woods: Correct location from user
-        [110] = { x=0.58, y=0.19 }, -- Silvermoon City: Correct location from user
+        [947] = { x=0.92, y=0.31 },  -- Azeroth
+        [13] = { x=0.57, y=0.14 },   -- Eastern Kingdoms (old)
+        [2537] = { x=0.28, y=0.38 }, -- Midnight Eastern Kingdoms
+        [2395] = { x=0.53, y=0.26 }, -- Quel'Thalas parent zone
+        [2393] = { x=0.53, y=0.65 }, -- Silvermoon City (Midnight)
+    },
+    ["Silvermoon (BC)"] = {
+        [947] = { x=0.92, y=0.31 },  -- Azeroth
+        [13] = { x=0.56, y=0.13 },   -- Eastern Kingdoms
+        [94] = { x=0.53, y=0.31 },   -- Eversong Woods
+        [110] = { x=0.58, y=0.19 },  -- Old Silvermoon City
     },
     ["Shattrath"] = {
         [101] = { x=0.43, y=0.66 }, -- Outland: Correct location
@@ -201,6 +210,9 @@ MP.LARGE_ICON_MAPS = {
     [2274]= 90,   -- Khaz Algar (Extra Large)
     [2248]= 90,   -- Isle of Dorn (Extra Large)
     [2339]= 90,   -- Dornogal City (Extra Large)
+    [2537]= true, -- Midnight Eastern Kingdoms (Large)
+    [2395]= 90,   -- Quel'Thalas (Extra Large)
+    [2393]= 90,   -- Silvermoon City (Extra Large)
 }
 
 
