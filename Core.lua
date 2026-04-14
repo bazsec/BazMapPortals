@@ -248,6 +248,11 @@ local function GetSettingsPage()
         name = "Settings",
         type = "group",
         args = {
+            intro = {
+                order = 0.1,
+                type = "lead",
+                text = "Display options for the mage portal/teleport map pins. Pins only appear for mage characters and only for spells you know.",
+            },
             displayHeader = {
                 order = 1,
                 type = "header",
