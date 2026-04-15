@@ -112,6 +112,7 @@ local addon = BazCore:RegisterAddon(ADDON_NAME, {
 
     minimap = {
         label = "BazMapPortals",
+        icon = 7476681,
     },
 
     onLoad = function(self)
