@@ -298,4 +298,4 @@ BazCore:RegisterOptionsTable(ADDON_NAME, GetLandingPage)
 BazCore:AddToSettings(ADDON_NAME, "BazMapPortals")
 
 BazCore:RegisterOptionsTable(ADDON_NAME .. "-Settings", GetSettingsPage)
-BazCore:AddToSettings(ADDON_NAME .. "-Settings", "Settings", ADDON_NAME)
+BazCore:AddToSettings(ADDON_NAME .. "-Settings", "General Settings", ADDON_NAME)
