@@ -57,9 +57,6 @@ BazCore:RegisterUserGuide("BazMapPortals", {
                 { type = "collapsible", title = "Legendary Zones", style = "h3", blocks = {
                     { type = "paragraph", text = "Theramore, Hyjal, and other lore destinations." },
                 }},
-                { type = "collapsible", title = "Midnight", style = "h3", blocks = {
-                    { type = "paragraph", text = "Silvermoon City (Midnight) teleport and portal for both factions." },
-                }},
             },
         },
         {
