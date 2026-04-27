@@ -21,6 +21,19 @@ BazMapPortals places pin icons on the world map at each destination a mage can t
 
 ***
 
+## Slash Commands
+
+| Command | Description |
+| --- | --- |
+| `/mp` | Open settings panel |
+| `/mp set <city>` | Save a custom coord override at your current map position |
+| `/mp clear <city\|all>` | Clear a single override or all of them |
+| `/mp dump` | Print current overrides |
+| `/mp info` | Show diagnostic info about the current map |
+| `/mapportals` | Alias for `/mp` |
+
+***
+
 ## Compatibility
 
 *   **WoW Version:** Retail 12.0 (Midnight)
