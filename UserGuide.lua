@@ -11,7 +11,7 @@ BazCore:RegisterUserGuide("BazMapPortals", {
         {
             title = "Welcome",
             blocks = {
-                { type = "lead", text = "BazMapPortals (BMP) places a pin icon on the world map at every destination a mage can teleport or portal to. Click a pin to cast the spell directly from the map — no need to dig through the spellbook." },
+                { type = "lead", text = "BazMapPortals (BMP) places a pin icon on the world map at every destination a mage can teleport or portal to. Click a pin to cast the spell directly from the map - no need to dig through the spellbook." },
                 { type = "note", style = "warning", text = "Mage-only. Pins simply don't appear on other classes." },
             },
         },
@@ -22,8 +22,8 @@ BazCore:RegisterUserGuide("BazMapPortals", {
                 { type = "table",
                   columns = { "Action", "Cast" },
                   rows = {
-                      { "Left-Click",  "Teleport — moves you alone" },
-                      { "Right-Click", "Portal — opens a portal that group members can step through" },
+                      { "Left-Click",  "Teleport - moves you alone" },
+                      { "Right-Click", "Portal - opens a portal that group members can step through" },
                   },
                 },
                 { type = "h3", text = "Filtering" },
@@ -77,7 +77,7 @@ BazCore:RegisterUserGuide("BazMapPortals", {
                       { "/mp clear",      "Clear a single custom override (`/mp clear <city>`) or all (`/mp clear all`)" },
                       { "/mp dump",       "Print the current overrides for inspection" },
                       { "/mp info",       "Show diagnostic info about the current map" },
-                      { "/mapportals",    "Alias for /mp — every subcommand works on either form" },
+                      { "/mapportals",    "Alias for /mp - every subcommand works on either form" },
                   },
                 },
             },
