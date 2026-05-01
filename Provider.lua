@@ -1,3 +1,4 @@
+-- SPDX-License-Identifier: GPL-2.0-or-later
 ---------------------------------------------------------------------------
 -- BazMapPortals: Map Data Provider
 -- Handles pin creation and coordinate projection

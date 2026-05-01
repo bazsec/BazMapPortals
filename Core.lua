@@ -1,3 +1,4 @@
+-- SPDX-License-Identifier: GPL-2.0-or-later
 ---------------------------------------------------------------------------
 -- BazMapPortals Core
 -- BazCore integration, settings, slash commands, map hooks
