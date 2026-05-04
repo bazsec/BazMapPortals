@@ -2,7 +2,7 @@
 
 # BazMapPortals
 
-![Part of BazAddons](https://img.shields.io/badge/Part_of-BazAddons-b8924a?labelColor=2a2519) ![WoW](https://img.shields.io/badge/WoW-12.0_Midnight-blue) ![License](https://img.shields.io/badge/License-GPL_v2-green) ![Version](https://img.shields.io/github/v/tag/BazAddons/BazMapPortals?label=Version&color=orange)
+[![Part of BazAddons](https://img.shields.io/badge/Part_of-BazAddons-b8924a?labelColor=2a2519)](https://bazaddons.com) ![WoW](https://img.shields.io/badge/WoW-12.0_Midnight-blue) ![License](https://img.shields.io/badge/License-GPL_v2-green) ![Version](https://img.shields.io/github/v/tag/BazAddons/BazMapPortals?label=Version&color=orange)
 
 Adds clickable portal and teleport spell icons directly to the world map for mages.
 
